@@ -1,0 +1,7 @@
+# List regular expressions to find the target term
+menopause
+Postmenopausal \(SCT 76498008\)
+Menopause(.*)\s*\(ICD-9-CM 627.2\)
+Menopausal and postmenopausal disorders \(ICD-9-CM 627.9\)
+PERIMENOPAUSE/MENOPAUSE
+postmenopausal bleeding \(sct 161788002\)

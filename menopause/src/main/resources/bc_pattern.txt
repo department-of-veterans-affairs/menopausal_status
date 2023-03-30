@@ -1,0 +1,1 @@
+<gov.va.vinci.menopause.types.BirthControlSection/>\s*(:|-)+\s*<gov.va.vinci.menopause.types.BirthControl/>

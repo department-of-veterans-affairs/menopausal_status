@@ -1,0 +1,4 @@
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>(\s|:|-)*<gov.va.vinci.menopause.types.BirthControl/>
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>(\s|:|-)*(on|using|uses|takes|has)\s*<gov.va.vinci.menopause.types.BirthControl/>
+no\s*<gov.va.vinci.menopause.types.LastMenstrualPeriod/>\s*because\s*of\s*<gov.va.vinci.menopause.types.BirthControl/>
+does\s*not\s*(have)?\s*(regular(ly)?)?<gov.va.vinci.menopause.types.LastMenstrualPeriod/>\s*(due\s*to|because\s*of)\s*(having|using)?\s*(a|an|the)?\s*<gov.va.vinci.menopause.types.BirthControl/>

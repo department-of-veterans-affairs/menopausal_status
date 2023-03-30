@@ -1,0 +1,14 @@
+#List regular expressions to find the target term
+
+#Menopause: Yes
+<gov.va.vinci.menopause.types.Term/>: *yes
+<gov.va.vinci.menopause.types.Term/>: *no\b
+Birth Control( |:|-)*\s*<gov.va.vinci.menopause.types.Term/>
+Contraception( |:|-)*\s*<gov.va.vinci.menopause.types.Term/>
+<gov.va.vinci.menopause.types.Term/>( |:|-)*\s*\d{2,4}\b
+#Menopause began: 2010
+<gov.va.vinci.menopause.types.Term/> \w+( |:|-)*\s*\d{2,4}\b
+#menopause 12/2010
+<gov.va.vinci.menopause.types.Term/> \w+( |:|-)*\s*\d{2}/\d{2,4}\b
+#Menopause over 10 yrs ago
+<gov.va.vinci.menopause.types.Term/> (\w+( |:|-)*)\s*\d{1,2}(years? ago|yrs? ago)

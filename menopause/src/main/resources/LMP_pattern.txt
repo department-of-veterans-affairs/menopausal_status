@@ -1,0 +1,4 @@
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>(\s|:|-)*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>\s*in\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>\s*was\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.LastMenstrualPeriod/>\s*spotting\s*<gov.va.vinci.leo.types.ParsedDate/>

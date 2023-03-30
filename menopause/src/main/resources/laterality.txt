@@ -1,0 +1,1 @@
+<gov.va.vinci.menopause.types.Laterality>\s<gov.va.vinci.menopause.types.SurgicalMenopause/>

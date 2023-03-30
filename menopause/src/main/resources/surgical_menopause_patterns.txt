@@ -1,0 +1,18 @@
+# x : date
+<gov.va.vinci.menopause.types.SurgicalMenopause/>(\s|:|-)*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>(\s|:|-)*<gov.va.vinci.leo.types.ParsedDate/>
+# x in date
+<gov.va.vinci.menopause.types.SurgicalMenopause/>\s*in\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>\s*in\s*<gov.va.vinci.leo.types.ParsedDate/>
+# x was date
+<gov.va.vinci.menopause.types.SurgicalMenopause/>\s*was\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>\s*was\s*<gov.va.vinci.leo.types.ParsedDate/>
+# x as of date
+<gov.va.vinci.menopause.types.SurgicalMenopause/>\s*as\s*of\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>\s*as\s*of\s*<gov.va.vinci.leo.types.ParsedDate/>
+# date x \n
+<gov.va.vinci.leo.types.ParsedDate/>[ \t]+<gov.va.vinci.menopause.types.SurgicalMenopause/>\n
+<gov.va.vinci.leo.types.ParsedDate/>[ \t]+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>\n
+# x as of date
+<gov.va.vinci.menopause.types.SurgicalMenopause/>\s*\?\s*<gov.va.vinci.leo.types.ParsedDate/>
+<gov.va.vinci.menopause.types.SurgicalMenopauseList/>\s*\?\s*<gov.va.vinci.leo.types.ParsedDate/>

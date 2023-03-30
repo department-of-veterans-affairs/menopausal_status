@@ -1,0 +1,1 @@
+<gov.va.vinci.menopause.types.SurgicalMenopause/>\s*(and|with|without|w\/o)\s*<gov.va.vinci.menopause.types.SurgicalMenopause/>
