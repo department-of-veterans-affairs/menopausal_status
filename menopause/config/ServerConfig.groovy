@@ -1,5 +1,5 @@
-brokerURL ="tcp://vhacdwdavdev06:61616"
-endpoint = "menopause11"
+brokerURL ="tcp://localhost:61616"
+endpoint = "menopause"
 deleteOnExit = true
 instanceNumber = 5
 isAsync = false
