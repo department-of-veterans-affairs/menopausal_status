@@ -1,19 +1,16 @@
 import gov.va.vinci.leo.cr.SQLServerPagedDatabaseCollectionReader
 
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-String url = "jdbc:sqlserver://vhacdwrb03:1433;databasename=VINCI_COVIDNLP;integratedSecurity=true"
-String query ='''SELECT a.[TIUDocumentSID], ReportText   
-FROM [VINCI_COVIDNLP].[menopause].[menopause_cohort_TIU] a 
-join [CDWwork].[STIUNotes].[TIUDocument_8925_02] b with(nolock) 
-on a.tiudocumentsid=b.tiudocumentsid 
-where processed=0 and reporttext is not null
-order by tiudocumentsid'''
+String url = "jdbc:sqlserver://your_connection_string"
+String query ='''select docid, text
+from your_table
+order by docid'''
 
-offset = [20000000,25000000]
+offset = [0,1000000]
 pagesize = 30000
 
 // String driver, String url, String username, String password, String query, String idColumn, String noteColumn,int pageSize
 reader = new SQLServerPagedDatabaseCollectionReader( driver,url,"","", query,
-        "tiudocumentsid", "reporttext", // Make sure that these fields are low case.
+        "docid", "text", // Make sure that these fields are low case.
         pagesize,
         offset[0], offset[1]);
