@@ -2,7 +2,20 @@
 
 If using the system, please cite:
 
-  TBD
+Hannah Eyre, Patrick R Alba, Carolyn J Gibson, Elise Gatsby, Kristine E Lynch, Olga V Patterson, Scott L DuVall. Bridging information gaps in menopause status classification through natural language processing. JAMIA Open. 2024.
+
+```
+@article{10.1093/jamiaopen/ooae013,
+    author = {Eyre, Hannah and Alba, Patrick R and Gibson, Carolyn J and Gatsby, Elise and Lynch, Kristine E and Patterson, Olga V and DuVall, Scott L},
+    title = "{Bridging information gaps in menopause status classification through natural language processing}",
+    journal = {JAMIA Open},
+    year = {2024},
+    month = {02},
+    issn = {2574-2531},
+    doi = {10.1093/jamiaopen/ooae013},
+    url = {https://doi.org/10.1093/jamiaopen/ooae013},
+}
+````
 
 The system is based on Leo architecture extending UIMA AS.  For more info on Leo see [ http://department-of-veterans-affairs.github.io/Leo/userguide.html ]
 To use the system:
